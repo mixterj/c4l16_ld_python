@@ -40,11 +40,11 @@ Using the Python code:
 
 3) Run the script using these parameters.
   
-    c4l16
+    parsegraph
 
 4) You can override the default settings by inlcuding these parameters
 
-    c4l16 -u <URI to be loaded and parsed> -p <predicates to query for>
+    parsegraph -u <URI to be loaded and parsed> -p <predicates to query for>
 
 5) The acceptable predicates are
 
