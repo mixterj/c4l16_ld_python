@@ -24,7 +24,7 @@ Windows:
 
 1) Download Python 2.7.11 (https://www.python.org/downloads/windows/). Pip is already packaged with the install.
 
-6) Set Python Path for Windows
+2) Set Python Path for Windows
 
     Windows 7 - http://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-7
     Windows 8 and 10 - http://stackoverflow.com/questions/21372637/installing-python-2-7-on-windows-8
@@ -34,19 +34,27 @@ Using the Python code:
 
 1) Clone the GitHub project
 
-2) Run the setup.py installation to include the Python dependencies
+2) Install the rdflib python library, if not already installed
+
+   pip install rdflib
+   
+3) Install the rdflib-jsonld library, if not already installed
+
+   pip install rdflib-jsonld
+
+4) Run setup.py to declare install dependencies and create the parsegraph package
     
     python setup.py install
 
-3) Run the script using these parameters.
+5) Run the parsegraph script using its default parameters for the URI to request and the predicates to select.
   
     parsegraph
 
-4) You can override the default settings by inlcuding these parameters
+6) You can override the default settings by including these parameters
 
     parsegraph -u <URI to be loaded and parsed> -p <predicates to query for>
 
-5) The acceptable predicates are
+The acceptable predicates are
 
     name - Name of the URI resource
     description - Description of the URI resource
