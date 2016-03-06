@@ -53,6 +53,10 @@ Using the Python code:
 6) You can override the default settings by including these parameters
 
     parsegraph -u <URI to be loaded and parsed> -p <predicates to query for>
+    
+e.g., 
+
+    parsegraph -u http://www.worldcat.org/oclc/15550774 -p "name,description"
 
 The acceptable predicates are
 
