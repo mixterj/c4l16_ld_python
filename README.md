@@ -36,11 +36,11 @@ Using the Python code:
 
 2) Install the rdflib python library, if not already installed
 
-   pip install rdflib
+    pip install rdflib
    
 3) Install the rdflib-jsonld library, if not already installed
 
-   pip install rdflib-jsonld
+    pip install rdflib-jsonld
 
 4) Run setup.py to declare install dependencies and create the parsegraph package
     
